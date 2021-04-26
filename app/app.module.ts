@@ -8,6 +8,7 @@ import { ContactPage } from "../pages/contact/contact";
 import { HomePage } from "../pages/home/home";
 import { TabsPage } from "../pages/tabs/tabs";
 import { GodzillaKongPage } from "../pages/filmes/godzilla-kong/godzilla-kong";
+import { LigaJusticaPage } from "../pages/filmes/liga-justica/liga-justica";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GodzillaKongPage } from "../pages/filmes/godzilla-kong/godzilla-kong";
     ContactPage,
     HomePage,
     TabsPage,
-    GodzillaKongPage
+    GodzillaKongPage,
+    LigaJusticaPage
   ],
   imports: [BrowserModule, IonicModule.forRoot(MyApp)],
   bootstrap: [IonicApp],
@@ -26,7 +28,8 @@ import { GodzillaKongPage } from "../pages/filmes/godzilla-kong/godzilla-kong";
     ContactPage,
     HomePage,
     TabsPage,
-    GodzillaKongPage
+    GodzillaKongPage,
+    LigaJusticaPage
   ],
   providers: [{ provide: ErrorHandler, useClass: IonicErrorHandler }]
 })
