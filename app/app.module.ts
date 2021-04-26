@@ -7,7 +7,7 @@ import { AboutPage } from "../pages/about/about";
 import { ContactPage } from "../pages/contact/contact";
 import { HomePage } from "../pages/home/home";
 import { TabsPage } from "../pages/tabs/tabs";
-import { GodzillaKongPage } from "../pages/filmes/godzilla-kong";
+import { GodzillaKongPage } from "../pages/filmes/godzilla-kong/godzilla-kong";
 
 @NgModule({
   declarations: [
