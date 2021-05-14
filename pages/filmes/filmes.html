@@ -12,27 +12,15 @@
       Comédia
     </ion-item>
 
-    <ion-item>
+    <ion-item *ngFor="let filme of filmes" >
       <ion-thumbnail item-start>
         <img
-          src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/rnzfFPhJZLdJS40nzvhNyfZ0ahD.jpg"
+          [src]="filme.cartaz"
         />
       </ion-thumbnail>
-      <h2>Eurotrip: Passaporte para a Confusão</h2>
+      <h2> {{ filme.nome }} </h2>
       <br />
-      <p>20 de fevereiro de 2004</p>
-      <button ion-button clear item-end>Ver</button>
-    </ion-item>
-
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img
-          src="https://www.themoviedb.org/t/p/w94_and_h141_bestv2/5cF5v8N0wMALMcgEHpBZHyYQZDl.jpg"
-        />
-      </ion-thumbnail>
-      <h2>Minha Mãe é Uma Peça: O Filme</h2>
-      <br />
-      <p>21 de junho de 2013</p>
+      <p>{{ filme.lancamento }}</p>
       <button ion-button clear item-end>Ver</button>
     </ion-item>
 
