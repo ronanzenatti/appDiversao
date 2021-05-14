@@ -18,7 +18,13 @@ export class FilmesPage {
       cartaz:
         'https://www.themoviedb.org/t/p/w94_and_h141_bestv2/5cF5v8N0wMALMcgEHpBZHyYQZDl.jpg',
       lancamento: '21 de junho de 2013'
-    }
+    },
+    {
+      nome: 'Pets Monstruosos',
+      cartaz:
+        'https://www.themoviedb.org/t/p/w220_and_h330_face/dkokENeY5Ka30BFgWAqk14mbnGs.jpg',
+      lancamento: '02 de abr de 2021'
+    },
   ];
 
   constructor(public navCtrl: NavController) {}
